@@ -127,9 +127,40 @@
     }
   }
 
-  &.row {
-    width: 49%;
+  &.row-left {
+    width: 59%;
     margin: 1rem 0;
+  }
+
+  &.row-right {
+    width: 40%;
+    margin: 1rem 0;
+
+    .skills {
+      list-style: none;
+
+      .skill-item {
+        margin: 1rem auto;
+
+        .skill-item-dynamic {
+          display: flex;
+          overflow: hidden;
+          background-color: #e2e8f0;
+          border-radius: 0.75rem;
+          height: 1rem;
+        
+          span {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #faf089;
+            text-align: center;
+            white-space: nowrap;
+            transition: width 2s ease;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -137,5 +168,4 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-
 }
