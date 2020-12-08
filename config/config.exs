@@ -12,11 +12,15 @@ config :bernous_cv,
 
 # Configures the endpoint
 config :bernous_cv, BernousCvWeb.Endpoint,
-  url: [host: "https://bernouscv.herokuapp.com"],
+  url: [host: "bernouscv.herokuapp.com"],
   secret_key_base: "heGWbVbiOc9CW1ZgUWwCWozIuKIz47YqRwb0ucwGR0jhruxyG5ZTkfkxaBL2JBuM",
   render_errors: [view: BernousCvWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: BernousCv.PubSub,
-  live_view: [signing_salt: "uwdGT7QL"]
+  live_view: [signing_salt: "uwdGT7QL"],
+  check_origin: [
+    "http://localhost:4000/",
+    "https://bernouscv.herokuapp.com",
+  ]
 
 # Configures Elixir's Logger
 config :logger, :console,
