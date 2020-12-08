@@ -22,9 +22,14 @@
       <li class="skill-item">
         <p>Gluten development</p>
         <div class="skill-item-dynamic">
-          <span style="width: 50%"></span>
+          <span style="width: <%= @gluten %>%"></span>
         </div>
       </li>
     </ul>
   </div>
+</section>
+<section class="section-content">
+  <h6>Give pets to increase gluten development productivity</h6>
+  <button phx-click="increase">+</button>
+  <button phx-click="decrease">-</button>
 </section>
