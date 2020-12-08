@@ -108,7 +108,12 @@
 
   &.hero {
     display: flex;
-  
+
+    @media only screen and (max-width: 576px) {
+      display: block;
+      text-align: center;
+    }
+
     img {
       width: 160px;
       height: 160px;
@@ -121,6 +126,14 @@
     .hero-info {
       margin: auto 0;
       padding-left: 2rem;
+
+      @media only screen and (max-width: 576px) {
+        padding-left: 0;
+        h3 {
+          font-size: 1.6rem;
+          margin-top: 0.5rem;
+        }
+      }
 
       p {
         margin: 0.5rem 0;
@@ -153,11 +166,19 @@
   &.row-left {
     width: 59%;
     margin: 1rem 0;
+
+    @media only screen and (max-width: 576px) {
+      width: 100%;
+    }
   }
 
   &.row-right {
     width: 40%;
     margin: 1rem 0;
+
+    @media only screen and (max-width: 576px) {
+      width: 100%;
+    }
 
     .skills {
       list-style: none;
@@ -241,8 +262,13 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+
+  @media only screen and (max-width: 576px) {
+    display: block;
+  }
 }
 
 video {
   background: #E8D6CB;
 }
+
