@@ -11,7 +11,7 @@ use Mix.Config
 # before starting your production server.
 config :bernous_cv, BernousCvWeb.Endpoint,
   http: [port: {:system, "PORT"}],
-  url: [scheme: "https", host: "pure-ocean-58174.herokuapp.com", port: 443],
+  url: [scheme: "https", host: "bernous.herokuapp.com", port: 443],
   force_ssl: [rewrite_on: [:x_forwarded_proto]],
   cache_static_manifest: "priv/static/cache_manifest.json"
 
