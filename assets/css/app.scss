@@ -111,7 +111,6 @@
       padding-left: 2rem;
 
       p {
-        font-size: 0.9em;
         margin: 0.5rem 0;
       }
 
@@ -122,6 +121,12 @@
         a {
           padding-right: 0.5rem;
           color: black;
+        }
+        
+        p {
+          display: inline-flex;
+          margin-left: 0.3rem;
+          font-size: 0.9em;
         }
       }
     }
@@ -142,7 +147,7 @@
       .skill-item {
         margin: 1rem auto;
 
-        .skill-item-dynamic {
+        .skill-item-strength {
           display: flex;
           overflow: hidden;
           background-color: #e2e8f0;
@@ -165,8 +170,8 @@
 
   button {
     padding: 5px 20px;
-    font-size: 0.8em;
-    margin-top: 1rem;
+    font-size: 0.9em;
+    margin-top: 0.5rem;
     border-radius: 5px;
     border: none;
     // background-color: ;

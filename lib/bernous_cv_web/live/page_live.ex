@@ -3,7 +3,7 @@ defmodule BernousCvWeb.PageLive do
 
   @impl true
   def mount(_params, _session, socket) do
-    {:ok, assign(socket, :gluten, 20)}
+    {:ok, assign(socket, :gluten, 0)}
   end
 
   @impl true
