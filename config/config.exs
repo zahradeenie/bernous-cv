@@ -12,7 +12,7 @@ config :bernous_cv,
 
 # Configures the endpoint
 config :bernous_cv, BernousCvWeb.Endpoint,
-  url: [host: "localhost"],
+  url: [host: "pure-ocean-58174.herokuapp.com"],
   secret_key_base: "heGWbVbiOc9CW1ZgUWwCWozIuKIz47YqRwb0ucwGR0jhruxyG5ZTkfkxaBL2JBuM",
   render_errors: [view: BernousCvWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: BernousCv.PubSub,
