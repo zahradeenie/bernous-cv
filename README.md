@@ -2,11 +2,11 @@
 
 We make jokes about our cat, Bernous, making lots of gluten because he likes to stretch his toebeans on every blanket he can find. This is me playing around making a little CV for him.
 
-It includes one interactive element using LiveView which is a button to increase Bernous' gluten development by giving him pets.
+It includes one interactive element using LiveView which is a button to increase Bernous' gluten development by giving him pets. It's deployed to Heroku so you can check it out here: https://bernouscv.herokuapp.com
 
-[](https://i.imgur.com/Qvina1B.png)
+![](https://i.imgur.com/Qvina1B.png)
 
---
+---
 
 To start your Phoenix server:
 
