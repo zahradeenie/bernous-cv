@@ -97,6 +97,10 @@
   border-radius: 5px;
   background-color: #E8D6CB;
 
+  @media only screen and (max-width: 576px) {
+    margin: 1rem;
+  }
+
   h6 {
     font-weight: 500;
   }
@@ -265,6 +269,8 @@
 
   @media only screen and (max-width: 576px) {
     display: block;
+    margin: 1rem;
+    width: auto;
   }
 }
 
